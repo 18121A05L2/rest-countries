@@ -1,0 +1,142 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family:Nunito Sans,sans-serif;
+}
+
+/* ----------------------------------------------  HEADER   ------------------- */
+header{
+    display: flex;
+    padding:1rem 6rem 1rem 6rem;
+    box-shadow: 0rem 0.3rem 1rem -1rem;
+    
+}
+header p{
+    display: inline-block;
+    padding-left: 0.5rem;
+    
+}
+.darkmode{
+    margin-left: auto;
+    margin-top:1rem;
+    font-weight: 600;
+
+}
+
+/* ------------------------------------- COUNTRIES  ----------------------------- */
+
+.countries{
+    padding:2rem 6rem 2rem 6rem;
+}
+input{
+    padding:0.5rem 0.5rem 0.5rem 0;
+    width:20rem;
+    height:3rem;
+    border: 0;
+    outline:0;
+}
+.searchicon{
+    font-size: 1.3rem;
+}
+.search{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    color: hsl(0, 0%, 52%);
+    box-shadow: 0rem 0rem 3px 3px rgba(0 0 0/ 4%);
+    border-radius:1rem;
+    width:23rem;
+    padding: 0 1rem 0 1.5rem;
+
+
+}
+.toptag{
+    display: flex;
+    margin-bottom:2rem;
+}
+.filter{
+    margin-left:auto;
+    box-shadow: 0rem 0rem 3px 3px rgba(0 0 0/ 4%);
+    width:8rem;
+    height:2rem;
+    padding:0.7rem;
+    border-radius:0.5rem;
+    cursor:pointer;
+}
+.innerfilter{
+    display: flex;
+}
+.careleft{
+    margin-left:auto;
+}
+.caredown{
+    margin-left:auto;
+
+}
+.delete{
+    font-size: 1.5rem;
+}
+.continent{
+    position:absolute;
+    top:11rem;
+    box-shadow: 0rem 0rem 3px 3px rgba(0 0 0/ 4%);
+    z-index: 20;
+    background-color: white;
+    width:7rem;
+    padding:0.7rem;
+    border-radius:0.5rem;
+
+}
+.searching{
+    margin:auto;
+}
+
+
+
+/* ------------------------------------- COUNTRY ------------------------------- */
+
+img{
+    width:13rem;
+    height:135px;
+    contain: content;
+}
+.country{
+    box-shadow: 0rem 0rem 3px 3px rgba(0 0 0/ 4%);
+    border-radius:1rem;
+    display: inline-block;
+    width:13rem;
+    margin:1rem;
+    height:20rem;
+    color:black;
+}
+.downtag{
+    padding:0.5rem;
+}
+div p{
+    padding: 0.6em 0.3rem 0 0;
+}
+
+
+
+/* ----------------------------------------- SPECIFIC COUNTRY ---------------------------------------- */
+.scountry{
+    
+}
+.back{
+    display: inline-block;
+    margin:3rem 80rem 3rem 10rem;
+}
+.scountry img{
+    margin:2rem;
+    width:40rem;
+    height:25rem;
+}
+.sinfo{
+    display: inline-block;
+    position: relative;
+    down:30px;
+
+}
